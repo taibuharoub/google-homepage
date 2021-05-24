@@ -82,3 +82,19 @@ a:hover {
     transition-duration: 0.5s;
     transition-property: margin-top;
 }
+#logo-google {
+    width: 100%;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.search-form {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    width: 100%;
+}
+.search-container {
+    display: flex;
+}
