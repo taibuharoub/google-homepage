@@ -146,3 +146,14 @@ a:hover {
     border-radius: 2px;
     padding: 10px 14px;
 }
+
+.search-button:hover {
+    border: 1px solid #c5c5c5;
+    cursor: pointer;
+    color: black;
+}
+.search-button:active,
+.search-button:focus {
+    border: 1px solid #4d90fe;
+    outline: none;
+}
