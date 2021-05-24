@@ -76,6 +76,7 @@ a:hover {
     flex-direction: column;
     align-items: center;
     margin-bottom: 10px;
+    margin-top: -100px;
 }
 .search-logo {
     margin-top: 135px;
@@ -156,4 +157,13 @@ a:hover {
 .search-button:focus {
     border: 1px solid #4d90fe;
     outline: none;
+}
+
+.search-text {
+    margin-top: 28px;
+    text-align: center;
+    font-size: small;
+}
+.search-text > a {
+    color: #1a0dab;
 }
