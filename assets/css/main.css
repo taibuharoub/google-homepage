@@ -98,3 +98,18 @@ a:hover {
 .search-container {
     display: flex;
 }
+
+.search-svg {
+    position: relative;
+    display: flex;
+    flex: 0 1 582px;
+    height: 44px;
+    margin: 25px auto 30px;
+}
+.svg {
+    position: absolute;
+    align-self: center;
+    margin-left: 45px;
+    height: 20px;
+    opacity: 0.3;
+}
