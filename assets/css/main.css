@@ -5,3 +5,24 @@
     font-family: arial, sans-serif;
     list-style-type: none;
 }
+
+.navbar {
+    flex: 0 0 auto;
+    color: rgba(0, 0, 0, 0.87);
+    font-size: 13px;
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.navbar-links {
+    display: flex;
+    align-items: center;
+    line-height: 24px;
+    padding: 16px 30px;
+}
+
+.navbar > ul > li {
+    display: inline-block;
+    margin-left: 15px;
+}
