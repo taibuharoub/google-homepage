@@ -65,3 +65,18 @@ a:hover {
 .login:hover {
     background-color: #5c96f5;
 }
+
+.search {
+    flex: 1 0 auto;
+    width: 100vw;
+    min-width: 360px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.search-logo {
+    margin-top: 135px;
+    transition-duration: 0.5s;
+    transition-property: margin-top;
+}
